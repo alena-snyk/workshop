@@ -25,6 +25,7 @@ steps:
   
     serviceConnectionEndpoint: 'Snyk'
     testType: 'app'
+    severityThreshold: 'high'
     monitorOnBuild: true
     failOnIssues: true
     additionalArguments: '--remote-repo-url=cli-testing  --project-name=cli-test-1'
